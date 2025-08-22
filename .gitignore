@@ -1,0 +1,104 @@
+# Build directories
+build/
+native/build/
+bin/
+lib/
+
+# Prerequisites
+*.d
+
+# Object files
+*.o
+*.ko
+*.obj
+*.elf
+
+# Libraries
+*.lib
+*.a
+*.la
+*.lo
+*.so
+*.so.*
+*.dylib
+
+# Executables
+*.exe
+*.out
+*.app
+*.i*86
+*.x86_64
+*.hex
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+*.cmake
+CTestTestfile.cmake
+Testing/
+
+# IDE specific files
+.vscode/
+.idea/
+*.sln
+*.vcxproj*
+*.vcproj
+*.user
+*.sln
+*.sln.old
+*.suo
+*.ncb
+*.opensdf
+*.sdf
+*.db
+
+# Java
+*.class
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# Logs and databases
+*.log
+*.sql
+*.sqlite
+
+# System Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+
+# Local development files
+local.properties
+
+# JNI specific
+*.dll
+*.dylib
+*.jnilib
+*.so
+
+# Build output directories
+out/
+build/
+
+# Generated files
+gen/
+
+# Local configuration
+local.properties
+
+# SEAL specific
+*.seal

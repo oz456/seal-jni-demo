@@ -1,0 +1,3 @@
+/home/penguin/Desktop/seal-jni-demo/native/build/seal-build/thirdparty/msgsl-subbuild/CMakeFiles/msgsl-populate.dir
+/home/penguin/Desktop/seal-jni-demo/native/build/seal-build/thirdparty/msgsl-subbuild/CMakeFiles/edit_cache.dir
+/home/penguin/Desktop/seal-jni-demo/native/build/seal-build/thirdparty/msgsl-subbuild/CMakeFiles/rebuild_cache.dir

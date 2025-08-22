@@ -1,0 +1,1354 @@
+The system is: Linux - 6.12.10-76061203-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/3.22.1/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/c++ 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/3.22.1/CompilerIdCXX/a.out"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_734b5/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_734b5.dir/build.make CMakeFiles/cmTC_734b5.dir/build
+gmake[1]: Entering directory '/home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_734b5.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc   -v -o CMakeFiles/cmTC_734b5.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_734b5.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_734b5.dir/'
+ /usr/lib/gcc/x86_64-linux-gnu/11/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_734b5.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccQNV3u4.s
+GNU C17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (x86_64-linux-gnu)
+	compiled by GNU C version 11.4.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/include-fixed"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/lib/gcc/x86_64-linux-gnu/11/include
+ /usr/local/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+GNU C17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (x86_64-linux-gnu)
+	compiled by GNU C version 11.4.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 50eaa2331df977b8016186198deb2d18
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_734b5.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_734b5.dir/'
+ as -v --64 -o CMakeFiles/cmTC_734b5.dir/CMakeCCompilerABI.c.o /tmp/ccQNV3u4.s
+GNU assembler version 2.38 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.38
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_734b5.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_734b5.dir/CMakeCCompilerABI.c.'
+Linking C executable cmTC_734b5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_734b5.dir/link.txt --verbose=1
+/usr/bin/cc  -v CMakeFiles/cmTC_734b5.dir/CMakeCCompilerABI.c.o -o cmTC_734b5 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper
+OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_734b5' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_734b5.'
+ /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccca7H2g.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_734b5 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. CMakeFiles/cmTC_734b5.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_734b5' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_734b5.'
+gmake[1]: Leaving directory '/home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CMakeTmp'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/usr/lib/gcc/x86_64-linux-gnu/11/include]
+    add: [/usr/local/include]
+    add: [/usr/include/x86_64-linux-gnu]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/11/include] ==> [/usr/lib/gcc/x86_64-linux-gnu/11/include]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/usr/lib/gcc/x86_64-linux-gnu/11/include;/usr/local/include;/usr/include/x86_64-linux-gnu;/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_734b5/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_734b5.dir/build.make CMakeFiles/cmTC_734b5.dir/build]
+  ignore line: [gmake[1]: Entering directory '/home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_734b5.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc   -v -o CMakeFiles/cmTC_734b5.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_734b5.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_734b5.dir/']
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/11/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_734b5.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccQNV3u4.s]
+  ignore line: [GNU C17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 11.4.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/include-fixed"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/11/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/include/x86_64-linux-gnu]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 11.4.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 50eaa2331df977b8016186198deb2d18]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_734b5.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_734b5.dir/']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_734b5.dir/CMakeCCompilerABI.c.o /tmp/ccQNV3u4.s]
+  ignore line: [GNU assembler version 2.38 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.38]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_734b5.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_734b5.dir/CMakeCCompilerABI.c.']
+  ignore line: [Linking C executable cmTC_734b5]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_734b5.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc  -v CMakeFiles/cmTC_734b5.dir/CMakeCCompilerABI.c.o -o cmTC_734b5 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_734b5' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_734b5.']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccca7H2g.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_734b5 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. CMakeFiles/cmTC_734b5.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccca7H2g.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_734b5] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/11] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../..]
+    arg [CMakeFiles/cmTC_734b5.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
+  collapse obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o] ==> [/usr/lib/x86_64-linux-gnu/Scrt1.o]
+  collapse obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o] ==> [/usr/lib/x86_64-linux-gnu/crti.o]
+  collapse obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o] ==> [/usr/lib/x86_64-linux-gnu/crtn.o]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11] ==> [/usr/lib/gcc/x86_64-linux-gnu/11]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../..] ==> [/usr/lib]
+  implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+  implicit objs: [/usr/lib/x86_64-linux-gnu/Scrt1.o;/usr/lib/x86_64-linux-gnu/crti.o;/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o;/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o;/usr/lib/x86_64-linux-gnu/crtn.o]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/11;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_5caf7/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_5caf7.dir/build.make CMakeFiles/cmTC_5caf7.dir/build
+gmake[1]: Entering directory '/home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_5caf7.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++   -v -o CMakeFiles/cmTC_5caf7.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_5caf7.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_5caf7.dir/'
+ /usr/lib/gcc/x86_64-linux-gnu/11/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_5caf7.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccRtRPox.s
+GNU C++17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (x86_64-linux-gnu)
+	compiled by GNU C version 11.4.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/11"
+ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/include-fixed"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/include/c++/11
+ /usr/include/x86_64-linux-gnu/c++/11
+ /usr/include/c++/11/backward
+ /usr/lib/gcc/x86_64-linux-gnu/11/include
+ /usr/local/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+GNU C++17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (x86_64-linux-gnu)
+	compiled by GNU C version 11.4.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: d591828bb4d392ae8b7b160e5bb0b95f
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_5caf7.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_5caf7.dir/'
+ as -v --64 -o CMakeFiles/cmTC_5caf7.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccRtRPox.s
+GNU assembler version 2.38 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.38
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_5caf7.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_5caf7.dir/CMakeCXXCompilerABI.cpp.'
+Linking CXX executable cmTC_5caf7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5caf7.dir/link.txt --verbose=1
+/usr/bin/c++  -v CMakeFiles/cmTC_5caf7.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_5caf7 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper
+OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_5caf7' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_5caf7.'
+ /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccpjUmjY.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_5caf7 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. CMakeFiles/cmTC_5caf7.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_5caf7' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_5caf7.'
+gmake[1]: Leaving directory '/home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CMakeTmp'
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/usr/include/c++/11]
+    add: [/usr/include/x86_64-linux-gnu/c++/11]
+    add: [/usr/include/c++/11/backward]
+    add: [/usr/lib/gcc/x86_64-linux-gnu/11/include]
+    add: [/usr/local/include]
+    add: [/usr/include/x86_64-linux-gnu]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/usr/include/c++/11] ==> [/usr/include/c++/11]
+  collapse include dir [/usr/include/x86_64-linux-gnu/c++/11] ==> [/usr/include/x86_64-linux-gnu/c++/11]
+  collapse include dir [/usr/include/c++/11/backward] ==> [/usr/include/c++/11/backward]
+  collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/11/include] ==> [/usr/lib/gcc/x86_64-linux-gnu/11/include]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/usr/include/c++/11;/usr/include/x86_64-linux-gnu/c++/11;/usr/include/c++/11/backward;/usr/lib/gcc/x86_64-linux-gnu/11/include;/usr/local/include;/usr/include/x86_64-linux-gnu;/usr/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_5caf7/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_5caf7.dir/build.make CMakeFiles/cmTC_5caf7.dir/build]
+  ignore line: [gmake[1]: Entering directory '/home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_5caf7.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++   -v -o CMakeFiles/cmTC_5caf7.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_5caf7.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_5caf7.dir/']
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/11/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_5caf7.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccRtRPox.s]
+  ignore line: [GNU C++17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 11.4.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/11"]
+  ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/include-fixed"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/include/c++/11]
+  ignore line: [ /usr/include/x86_64-linux-gnu/c++/11]
+  ignore line: [ /usr/include/c++/11/backward]
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/11/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/include/x86_64-linux-gnu]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C++17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 11.4.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: d591828bb4d392ae8b7b160e5bb0b95f]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_5caf7.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_5caf7.dir/']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_5caf7.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccRtRPox.s]
+  ignore line: [GNU assembler version 2.38 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.38]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_5caf7.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_5caf7.dir/CMakeCXXCompilerABI.cpp.']
+  ignore line: [Linking CXX executable cmTC_5caf7]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5caf7.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++  -v CMakeFiles/cmTC_5caf7.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_5caf7 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_5caf7' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_5caf7.']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccpjUmjY.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_5caf7 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. CMakeFiles/cmTC_5caf7.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccpjUmjY.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_5caf7] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/11] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../..]
+    arg [CMakeFiles/cmTC_5caf7.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
+  collapse obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o] ==> [/usr/lib/x86_64-linux-gnu/Scrt1.o]
+  collapse obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o] ==> [/usr/lib/x86_64-linux-gnu/crti.o]
+  collapse obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o] ==> [/usr/lib/x86_64-linux-gnu/crtn.o]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11] ==> [/usr/lib/gcc/x86_64-linux-gnu/11]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../..] ==> [/usr/lib]
+  implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+  implicit objs: [/usr/lib/x86_64-linux-gnu/Scrt1.o;/usr/lib/x86_64-linux-gnu/crti.o;/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o;/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o;/usr/lib/x86_64-linux-gnu/crtn.o]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/11;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+Performing C++ SOURCE FILE Test USE_STD_FOR_EACH_N succeeded with the following output:
+Change Dir: /home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_853fe/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_853fe.dir/build.make CMakeFiles/cmTC_853fe.dir/build
+gmake[1]: Entering directory '/home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_853fe.dir/src.cxx.o
+/usr/bin/c++ -DUSE_STD_FOR_EACH_N  -O0 -std=c++17 -fPIE -o CMakeFiles/cmTC_853fe.dir/src.cxx.o -c /home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_853fe
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_853fe.dir/link.txt --verbose=1
+/usr/bin/c++   -O0 -std=c++17 CMakeFiles/cmTC_853fe.dir/src.cxx.o -o cmTC_853fe 
+gmake[1]: Leaving directory '/home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+            #include <algorithm>
+            int main() {
+                int a[1]{ 0 };
+                volatile auto fun = std::for_each_n(a, 1, [](auto b) {});
+                return 0;
+            }
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: /home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_89fa6/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_89fa6.dir/build.make CMakeFiles/cmTC_89fa6.dir/build
+gmake[1]: Entering directory '/home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_89fa6.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fPIE -o CMakeFiles/cmTC_89fa6.dir/CheckIncludeFile.c.o -c /home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_89fa6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_89fa6.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_89fa6.dir/CheckIncludeFile.c.o -o cmTC_89fa6 
+gmake[1]: Leaving directory '/home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: /home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_23f4e/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_23f4e.dir/build.make CMakeFiles/cmTC_23f4e.dir/build
+gmake[1]: Entering directory '/home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_23f4e.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fPIE -o CMakeFiles/cmTC_23f4e.dir/CheckIncludeFile.c.o -c /home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_23f4e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_23f4e.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_23f4e.dir/CheckIncludeFile.c.o -o cmTC_23f4e 
+gmake[1]: Leaving directory '/home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: /home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_d9cda/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_d9cda.dir/build.make CMakeFiles/cmTC_d9cda.dir/build
+gmake[1]: Entering directory '/home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d9cda.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fPIE -o CMakeFiles/cmTC_d9cda.dir/CheckIncludeFile.c.o -c /home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_d9cda
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d9cda.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_d9cda.dir/CheckIncludeFile.c.o -o cmTC_d9cda 
+gmake[1]: Leaving directory '/home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of off64_t passed with the following output:
+Change Dir: /home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_2a5cf/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_2a5cf.dir/build.make CMakeFiles/cmTC_2a5cf.dir/build
+gmake[1]: Entering directory '/home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2a5cf.dir/OFF64_T.c.o
+/usr/bin/cc -DHAVE_STDDEF_H -DHAVE_STDINT_H -DHAVE_SYS_TYPES_H -D_LARGEFILE64_SOURCE=1  -fPIE -o CMakeFiles/cmTC_2a5cf.dir/OFF64_T.c.o -c /home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CheckTypeSize/OFF64_T.c
+Linking C executable cmTC_2a5cf
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2a5cf.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_2a5cf.dir/OFF64_T.c.o -o cmTC_2a5cf 
+gmake[1]: Leaving directory '/home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function fseeko exists passed with the following output:
+Change Dir: /home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_7b9e4/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_7b9e4.dir/build.make CMakeFiles/cmTC_7b9e4.dir/build
+gmake[1]: Entering directory '/home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7b9e4.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=fseeko -fPIE -o CMakeFiles/cmTC_7b9e4.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_7b9e4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7b9e4.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=fseeko CMakeFiles/cmTC_7b9e4.dir/CheckFunctionExists.c.o -o cmTC_7b9e4 
+gmake[1]: Leaving directory '/home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file unistd.h exists passed with the following output:
+Change Dir: /home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_70c03/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_70c03.dir/build.make CMakeFiles/cmTC_70c03.dir/build
+gmake[1]: Entering directory '/home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_70c03.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fPIE -o CMakeFiles/cmTC_70c03.dir/CheckIncludeFile.c.o -c /home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_70c03
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_70c03.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_70c03.dir/CheckIncludeFile.c.o -o cmTC_70c03 
+gmake[1]: Leaving directory '/home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CMakeTmp'
+
+
+
+Checking whether the ASM compiler is GNU using "--version" matched "(GNU assembler)|(GCC)|(Free Software Foundation)":
+cc (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0
+Copyright (C) 2021 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+Performing C SOURCE FILE Test C_FLAG_WALL succeeded with the following output:
+Change Dir: /home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_feac1/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_feac1.dir/build.make CMakeFiles/cmTC_feac1.dir/build
+gmake[1]: Entering directory '/home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_feac1.dir/src.c.o
+/usr/bin/cc -DC_FLAG_WALL  -fPIE   -Wall -o CMakeFiles/cmTC_feac1.dir/src.c.o -c /home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_feac1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_feac1.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_feac1.dir/src.c.o -o cmTC_feac1 
+gmake[1]: Leaving directory '/home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test CXX_FLAG_WALL succeeded with the following output:
+Change Dir: /home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_1fe6e/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_1fe6e.dir/build.make CMakeFiles/cmTC_1fe6e.dir/build
+gmake[1]: Entering directory '/home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_1fe6e.dir/src.cxx.o
+/usr/bin/c++ -DCXX_FLAG_WALL  -fPIE   -Wall -o CMakeFiles/cmTC_1fe6e.dir/src.cxx.o -c /home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_1fe6e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1fe6e.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_1fe6e.dir/src.cxx.o -o cmTC_1fe6e 
+gmake[1]: Leaving directory '/home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test C_FLAG_WEXTRA succeeded with the following output:
+Change Dir: /home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_7f787/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_7f787.dir/build.make CMakeFiles/cmTC_7f787.dir/build
+gmake[1]: Entering directory '/home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7f787.dir/src.c.o
+/usr/bin/cc -DC_FLAG_WEXTRA  -Wall  -fPIE   -Wextra -o CMakeFiles/cmTC_7f787.dir/src.c.o -c /home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_7f787
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7f787.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall  CMakeFiles/cmTC_7f787.dir/src.c.o -o cmTC_7f787 
+gmake[1]: Leaving directory '/home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test CXX_FLAG_WEXTRA succeeded with the following output:
+Change Dir: /home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_302b0/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_302b0.dir/build.make CMakeFiles/cmTC_302b0.dir/build
+gmake[1]: Entering directory '/home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_302b0.dir/src.cxx.o
+/usr/bin/c++ -DCXX_FLAG_WEXTRA  -Wall  -fPIE   -Wextra -o CMakeFiles/cmTC_302b0.dir/src.cxx.o -c /home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_302b0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_302b0.dir/link.txt --verbose=1
+/usr/bin/c++  -Wall  CMakeFiles/cmTC_302b0.dir/src.cxx.o -o cmTC_302b0 
+gmake[1]: Leaving directory '/home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test C_FLAG_WUNDEF succeeded with the following output:
+Change Dir: /home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_74c72/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_74c72.dir/build.make CMakeFiles/cmTC_74c72.dir/build
+gmake[1]: Entering directory '/home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_74c72.dir/src.c.o
+/usr/bin/cc -DC_FLAG_WUNDEF  -Wall -Wextra  -fPIE   -Wundef -o CMakeFiles/cmTC_74c72.dir/src.c.o -c /home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_74c72
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_74c72.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -Wextra  CMakeFiles/cmTC_74c72.dir/src.c.o -o cmTC_74c72 
+gmake[1]: Leaving directory '/home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test CXX_FLAG_WUNDEF succeeded with the following output:
+Change Dir: /home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_c49cc/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_c49cc.dir/build.make CMakeFiles/cmTC_c49cc.dir/build
+gmake[1]: Entering directory '/home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_c49cc.dir/src.cxx.o
+/usr/bin/c++ -DCXX_FLAG_WUNDEF  -Wall -Wextra  -fPIE   -Wundef -o CMakeFiles/cmTC_c49cc.dir/src.cxx.o -c /home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_c49cc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c49cc.dir/link.txt --verbose=1
+/usr/bin/c++  -Wall -Wextra  CMakeFiles/cmTC_c49cc.dir/src.cxx.o -o cmTC_c49cc 
+gmake[1]: Leaving directory '/home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test C_FLAG_WSHADOW succeeded with the following output:
+Change Dir: /home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_7fa5e/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_7fa5e.dir/build.make CMakeFiles/cmTC_7fa5e.dir/build
+gmake[1]: Entering directory '/home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7fa5e.dir/src.c.o
+/usr/bin/cc -DC_FLAG_WSHADOW  -Wall -Wextra -Wundef  -fPIE   -Wshadow -o CMakeFiles/cmTC_7fa5e.dir/src.c.o -c /home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_7fa5e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7fa5e.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -Wextra -Wundef  CMakeFiles/cmTC_7fa5e.dir/src.c.o -o cmTC_7fa5e 
+gmake[1]: Leaving directory '/home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test CXX_FLAG_WSHADOW succeeded with the following output:
+Change Dir: /home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_ac72b/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_ac72b.dir/build.make CMakeFiles/cmTC_ac72b.dir/build
+gmake[1]: Entering directory '/home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_ac72b.dir/src.cxx.o
+/usr/bin/c++ -DCXX_FLAG_WSHADOW  -Wall -Wextra -Wundef  -fPIE   -Wshadow -o CMakeFiles/cmTC_ac72b.dir/src.cxx.o -c /home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_ac72b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ac72b.dir/link.txt --verbose=1
+/usr/bin/c++  -Wall -Wextra -Wundef  CMakeFiles/cmTC_ac72b.dir/src.cxx.o -o cmTC_ac72b 
+gmake[1]: Leaving directory '/home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test C_FLAG_WCAST_ALIGN succeeded with the following output:
+Change Dir: /home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_2558e/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_2558e.dir/build.make CMakeFiles/cmTC_2558e.dir/build
+gmake[1]: Entering directory '/home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2558e.dir/src.c.o
+/usr/bin/cc -DC_FLAG_WCAST_ALIGN  -Wall -Wextra -Wundef -Wshadow  -fPIE   -Wcast-align -o CMakeFiles/cmTC_2558e.dir/src.c.o -c /home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_2558e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2558e.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -Wextra -Wundef -Wshadow  CMakeFiles/cmTC_2558e.dir/src.c.o -o cmTC_2558e 
+gmake[1]: Leaving directory '/home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test CXX_FLAG_WCAST_ALIGN succeeded with the following output:
+Change Dir: /home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_f5408/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_f5408.dir/build.make CMakeFiles/cmTC_f5408.dir/build
+gmake[1]: Entering directory '/home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_f5408.dir/src.cxx.o
+/usr/bin/c++ -DCXX_FLAG_WCAST_ALIGN  -Wall -Wextra -Wundef -Wshadow  -fPIE   -Wcast-align -o CMakeFiles/cmTC_f5408.dir/src.cxx.o -c /home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_f5408
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f5408.dir/link.txt --verbose=1
+/usr/bin/c++  -Wall -Wextra -Wundef -Wshadow  CMakeFiles/cmTC_f5408.dir/src.cxx.o -o cmTC_f5408 
+gmake[1]: Leaving directory '/home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test C_FLAG_WCAST_QUAL succeeded with the following output:
+Change Dir: /home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_c62b0/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_c62b0.dir/build.make CMakeFiles/cmTC_c62b0.dir/build
+gmake[1]: Entering directory '/home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c62b0.dir/src.c.o
+/usr/bin/cc -DC_FLAG_WCAST_QUAL  -Wall -Wextra -Wundef -Wshadow -Wcast-align  -fPIE   -Wcast-qual -o CMakeFiles/cmTC_c62b0.dir/src.c.o -c /home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_c62b0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c62b0.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -Wextra -Wundef -Wshadow -Wcast-align  CMakeFiles/cmTC_c62b0.dir/src.c.o -o cmTC_c62b0 
+gmake[1]: Leaving directory '/home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test CXX_FLAG_WCAST_QUAL succeeded with the following output:
+Change Dir: /home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_2f8b1/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_2f8b1.dir/build.make CMakeFiles/cmTC_2f8b1.dir/build
+gmake[1]: Entering directory '/home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_2f8b1.dir/src.cxx.o
+/usr/bin/c++ -DCXX_FLAG_WCAST_QUAL  -Wall -Wextra -Wundef -Wshadow -Wcast-align  -fPIE   -Wcast-qual -o CMakeFiles/cmTC_2f8b1.dir/src.cxx.o -c /home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_2f8b1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2f8b1.dir/link.txt --verbose=1
+/usr/bin/c++  -Wall -Wextra -Wundef -Wshadow -Wcast-align  CMakeFiles/cmTC_2f8b1.dir/src.cxx.o -o cmTC_2f8b1 
+gmake[1]: Leaving directory '/home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test C_FLAG_WSTRICT_PROTOTYPES succeeded with the following output:
+Change Dir: /home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_4aade/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_4aade.dir/build.make CMakeFiles/cmTC_4aade.dir/build
+gmake[1]: Entering directory '/home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4aade.dir/src.c.o
+/usr/bin/cc -DC_FLAG_WSTRICT_PROTOTYPES  -Wall -Wextra -Wundef -Wshadow -Wcast-align -Wcast-qual  -fPIE   -Wstrict-prototypes -o CMakeFiles/cmTC_4aade.dir/src.c.o -c /home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_4aade
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4aade.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -Wextra -Wundef -Wshadow -Wcast-align -Wcast-qual  CMakeFiles/cmTC_4aade.dir/src.c.o -o cmTC_4aade 
+gmake[1]: Leaving directory '/home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test LD_FLAG_WL_Z_NOEXECSTACK succeeded with the following output:
+Change Dir: /home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_7934c/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_7934c.dir/build.make CMakeFiles/cmTC_7934c.dir/build
+gmake[1]: Entering directory '/home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7934c.dir/src.c.o
+/usr/bin/cc -DLD_FLAG_WL_Z_NOEXECSTACK  -Wall -Wextra -Wundef -Wshadow -Wcast-align -Wcast-qual -Wstrict-prototypes  -fPIE -o CMakeFiles/cmTC_7934c.dir/src.c.o -c /home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CMakeTmp/src.c
+/home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CMakeTmp/src.c:1:5: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+    1 | int main() { return 0; }
+      |     ^~~~
+Linking C executable cmTC_7934c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7934c.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -Wextra -Wundef -Wshadow -Wcast-align -Wcast-qual -Wstrict-prototypes  -Wl,-z,noexecstack CMakeFiles/cmTC_7934c.dir/src.c.o -o cmTC_7934c 
+gmake[1]: Leaving directory '/home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test C_FLAG_WA_NOEXECSTACK succeeded with the following output:
+Change Dir: /home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_ef45d/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_ef45d.dir/build.make CMakeFiles/cmTC_ef45d.dir/build
+gmake[1]: Entering directory '/home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ef45d.dir/src.c.o
+/usr/bin/cc -DC_FLAG_WA_NOEXECSTACK  -Wall -Wextra -Wundef -Wshadow -Wcast-align -Wcast-qual -Wstrict-prototypes  -fPIE   -Wa,--noexecstack -o CMakeFiles/cmTC_ef45d.dir/src.c.o -c /home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_ef45d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ef45d.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -Wextra -Wundef -Wshadow -Wcast-align -Wcast-qual -Wstrict-prototypes   -Wl,-z,noexecstack  CMakeFiles/cmTC_ef45d.dir/src.c.o -o cmTC_ef45d 
+gmake[1]: Leaving directory '/home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test CXX_FLAG_WA_NOEXECSTACK succeeded with the following output:
+Change Dir: /home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_af3ff/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_af3ff.dir/build.make CMakeFiles/cmTC_af3ff.dir/build
+gmake[1]: Entering directory '/home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_af3ff.dir/src.cxx.o
+/usr/bin/c++ -DCXX_FLAG_WA_NOEXECSTACK  -Wall -Wextra -Wundef -Wshadow -Wcast-align -Wcast-qual  -fPIE   -Wa,--noexecstack -o CMakeFiles/cmTC_af3ff.dir/src.cxx.o -c /home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_af3ff
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_af3ff.dir/link.txt --verbose=1
+/usr/bin/c++  -Wall -Wextra -Wundef -Wshadow -Wcast-align -Wcast-qual   -Wl,-z,noexecstack  CMakeFiles/cmTC_af3ff.dir/src.cxx.o -o cmTC_af3ff 
+gmake[1]: Leaving directory '/home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Determining if the include file x86intrin.h exists passed with the following output:
+Change Dir: /home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_3959c/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_3959c.dir/build.make CMakeFiles/cmTC_3959c.dir/build
+gmake[1]: Entering directory '/home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_3959c.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++   -fPIE -o CMakeFiles/cmTC_3959c.dir/CheckIncludeFile.cxx.o -c /home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_3959c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3959c.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_3959c.dir/CheckIncludeFile.cxx.o -o cmTC_3959c 
+gmake[1]: Leaving directory '/home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of __int128 passed with the following output:
+Change Dir: /home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_7d0fe/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_7d0fe.dir/build.make CMakeFiles/cmTC_7d0fe.dir/build
+gmake[1]: Entering directory '/home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_7d0fe.dir/INT128.cpp.o
+/usr/bin/c++   -O0 -std=c++17 -fPIE -o CMakeFiles/cmTC_7d0fe.dir/INT128.cpp.o -c /home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CheckTypeSize/INT128.cpp
+Linking CXX executable cmTC_7d0fe
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7d0fe.dir/link.txt --verbose=1
+/usr/bin/c++   -O0 -std=c++17 CMakeFiles/cmTC_7d0fe.dir/INT128.cpp.o -o cmTC_7d0fe 
+gmake[1]: Leaving directory '/home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CMakeTmp'
+
+
+
+Performing C++ SOURCE FILE Test SEAL___BUILTIN_CLZLL_FOUND succeeded with the following compile output:
+Change Dir: /home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_af10d/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_af10d.dir/build.make CMakeFiles/cmTC_af10d.dir/build
+gmake[1]: Entering directory '/home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_af10d.dir/src.cxx.o
+/usr/bin/c++ -DSEAL___BUILTIN_CLZLL_FOUND  -O0 -std=c++17 -fPIE -o CMakeFiles/cmTC_af10d.dir/src.cxx.o -c /home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_af10d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_af10d.dir/link.txt --verbose=1
+/usr/bin/c++   -O0 -std=c++17 CMakeFiles/cmTC_af10d.dir/src.cxx.o -o cmTC_af10d 
+gmake[1]: Leaving directory '/home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CMakeTmp'
+
+
+...and run output:
+
+Return value: 1
+Source file was:
+
+            int main() {
+                volatile auto res = __builtin_clzll(0);
+                return 0;
+            }
+Performing C++ SOURCE FILE Test SEAL__ADDCARRY_U64_FOUND succeeded with the following compile output:
+Change Dir: /home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_a78d2/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_a78d2.dir/build.make CMakeFiles/cmTC_a78d2.dir/build
+gmake[1]: Entering directory '/home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_a78d2.dir/src.cxx.o
+/usr/bin/c++ -DSEAL__ADDCARRY_U64_FOUND  -O0 -std=c++17 -fPIE -o CMakeFiles/cmTC_a78d2.dir/src.cxx.o -c /home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_a78d2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a78d2.dir/link.txt --verbose=1
+/usr/bin/c++   -O0 -std=c++17 CMakeFiles/cmTC_a78d2.dir/src.cxx.o -o cmTC_a78d2 
+gmake[1]: Leaving directory '/home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CMakeTmp'
+
+
+...and run output:
+
+Return value: 1
+Source file was:
+
+        #include <x86intrin.h>
+        int main() {
+            unsigned long long a;
+            volatile auto res = _addcarry_u64(0,0,0,&a);
+            return 0;
+        }
+Performing C++ SOURCE FILE Test SEAL__SUBBORROW_U64_FOUND succeeded with the following compile output:
+Change Dir: /home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_21464/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_21464.dir/build.make CMakeFiles/cmTC_21464.dir/build
+gmake[1]: Entering directory '/home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_21464.dir/src.cxx.o
+/usr/bin/c++ -DSEAL__SUBBORROW_U64_FOUND  -O0 -std=c++17 -fPIE -o CMakeFiles/cmTC_21464.dir/src.cxx.o -c /home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_21464
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_21464.dir/link.txt --verbose=1
+/usr/bin/c++   -O0 -std=c++17 CMakeFiles/cmTC_21464.dir/src.cxx.o -o cmTC_21464 
+gmake[1]: Leaving directory '/home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CMakeTmp'
+
+
+...and run output:
+
+Return value: 1
+Source file was:
+
+        #include <x86intrin.h>
+        int main() {
+            unsigned long long a;
+            volatile auto res = _subborrow_u64(0,0,0,&a);
+            return 0;
+        }
+Determining if the explicit_bzero exist passed with the following output:
+Change Dir: /home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_a9613/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_a9613.dir/build.make CMakeFiles/cmTC_a9613.dir/build
+gmake[1]: Entering directory '/home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a9613.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -fPIE -o CMakeFiles/cmTC_a9613.dir/CheckSymbolExists.c.o -c /home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_a9613
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a9613.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_a9613.dir/CheckSymbolExists.c.o -o cmTC_a9613 
+gmake[1]: Leaving directory '/home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CMakeTmp'
+
+
+File /home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <string.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef explicit_bzero
+  return ((int*)(&explicit_bzero))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_33cd3/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_33cd3.dir/build.make CMakeFiles/cmTC_33cd3.dir/build
+gmake[1]: Entering directory '/home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_33cd3.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fPIE -o CMakeFiles/cmTC_33cd3.dir/CheckIncludeFile.c.o -c /home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_33cd3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_33cd3.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_33cd3.dir/CheckIncludeFile.c.o -o cmTC_33cd3 
+gmake[1]: Leaving directory '/home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CMakeTmp'
+
+
+
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD succeeded with the following output:
+Change Dir: /home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_6f922/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_6f922.dir/build.make CMakeFiles/cmTC_6f922.dir/build
+gmake[1]: Entering directory '/home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6f922.dir/src.c.o
+/usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD  -fPIE -o CMakeFiles/cmTC_6f922.dir/src.c.o -c /home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_6f922
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6f922.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_6f922.dir/src.c.o -o cmTC_6f922 
+gmake[1]: Leaving directory '/home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#include <pthread.h>
+
+static void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+Performing C++ SOURCE FILE Test USE_STD_FOR_EACH_N succeeded with the following output:
+Change Dir: /home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_429ae/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_429ae.dir/build.make CMakeFiles/cmTC_429ae.dir/build
+gmake[1]: Entering directory '/home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_429ae.dir/src.cxx.o
+/usr/bin/c++ -DUSE_STD_FOR_EACH_N  -O0 -std=c++17 -fPIE -o CMakeFiles/cmTC_429ae.dir/src.cxx.o -c /home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_429ae
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_429ae.dir/link.txt --verbose=1
+/usr/bin/c++   -O0 -std=c++17 CMakeFiles/cmTC_429ae.dir/src.cxx.o -o cmTC_429ae 
+gmake[1]: Leaving directory '/home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+            #include <algorithm>
+            int main() {
+                int a[1]{ 0 };
+                volatile auto fun = std::for_each_n(a, 1, [](auto b) {});
+                return 0;
+            }
+Performing C++ SOURCE FILE Test USE_STD_FOR_EACH_N succeeded with the following output:
+Change Dir: /home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_eeb53/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_eeb53.dir/build.make CMakeFiles/cmTC_eeb53.dir/build
+gmake[1]: Entering directory '/home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_eeb53.dir/src.cxx.o
+/usr/bin/c++ -DUSE_STD_FOR_EACH_N  -O0 -std=c++17 -fPIE -o CMakeFiles/cmTC_eeb53.dir/src.cxx.o -c /home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_eeb53
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_eeb53.dir/link.txt --verbose=1
+/usr/bin/c++   -O0 -std=c++17 CMakeFiles/cmTC_eeb53.dir/src.cxx.o -o cmTC_eeb53 
+gmake[1]: Leaving directory '/home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+            #include <algorithm>
+            int main() {
+                int a[1]{ 0 };
+                volatile auto fun = std::for_each_n(a, 1, [](auto b) {});
+                return 0;
+            }
+Performing C++ SOURCE FILE Test USE_STD_FOR_EACH_N succeeded with the following output:
+Change Dir: /home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_719e8/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_719e8.dir/build.make CMakeFiles/cmTC_719e8.dir/build
+gmake[1]: Entering directory '/home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_719e8.dir/src.cxx.o
+/usr/bin/c++ -DUSE_STD_FOR_EACH_N  -O0 -std=c++17 -fPIE -o CMakeFiles/cmTC_719e8.dir/src.cxx.o -c /home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_719e8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_719e8.dir/link.txt --verbose=1
+/usr/bin/c++   -O0 -std=c++17 CMakeFiles/cmTC_719e8.dir/src.cxx.o -o cmTC_719e8 
+gmake[1]: Leaving directory '/home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+            #include <algorithm>
+            int main() {
+                int a[1]{ 0 };
+                volatile auto fun = std::for_each_n(a, 1, [](auto b) {});
+                return 0;
+            }
+Performing C++ SOURCE FILE Test USE_STD_FOR_EACH_N succeeded with the following output:
+Change Dir: /home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_b9e5d/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_b9e5d.dir/build.make CMakeFiles/cmTC_b9e5d.dir/build
+gmake[1]: Entering directory '/home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_b9e5d.dir/src.cxx.o
+/usr/bin/c++ -DUSE_STD_FOR_EACH_N  -O0 -std=c++17 -fPIE -o CMakeFiles/cmTC_b9e5d.dir/src.cxx.o -c /home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_b9e5d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b9e5d.dir/link.txt --verbose=1
+/usr/bin/c++   -O0 -std=c++17 CMakeFiles/cmTC_b9e5d.dir/src.cxx.o -o cmTC_b9e5d 
+gmake[1]: Leaving directory '/home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+            #include <algorithm>
+            int main() {
+                int a[1]{ 0 };
+                volatile auto fun = std::for_each_n(a, 1, [](auto b) {});
+                return 0;
+            }
+Performing C++ SOURCE FILE Test USE_STD_FOR_EACH_N succeeded with the following output:
+Change Dir: /home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_d728e/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_d728e.dir/build.make CMakeFiles/cmTC_d728e.dir/build
+gmake[1]: Entering directory '/home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_d728e.dir/src.cxx.o
+/usr/bin/c++ -DUSE_STD_FOR_EACH_N  -O0 -std=c++17 -fPIE -o CMakeFiles/cmTC_d728e.dir/src.cxx.o -c /home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_d728e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d728e.dir/link.txt --verbose=1
+/usr/bin/c++   -O0 -std=c++17 CMakeFiles/cmTC_d728e.dir/src.cxx.o -o cmTC_d728e 
+gmake[1]: Leaving directory '/home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+            #include <algorithm>
+            int main() {
+                int a[1]{ 0 };
+                volatile auto fun = std::for_each_n(a, 1, [](auto b) {});
+                return 0;
+            }
+Performing C++ SOURCE FILE Test USE_STD_FOR_EACH_N succeeded with the following output:
+Change Dir: /home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_5e2a1/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_5e2a1.dir/build.make CMakeFiles/cmTC_5e2a1.dir/build
+gmake[1]: Entering directory '/home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_5e2a1.dir/src.cxx.o
+/usr/bin/c++ -DUSE_STD_FOR_EACH_N  -O0 -std=c++17 -fPIE -o CMakeFiles/cmTC_5e2a1.dir/src.cxx.o -c /home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_5e2a1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5e2a1.dir/link.txt --verbose=1
+/usr/bin/c++   -O0 -std=c++17 CMakeFiles/cmTC_5e2a1.dir/src.cxx.o -o cmTC_5e2a1 
+gmake[1]: Leaving directory '/home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+            #include <algorithm>
+            int main() {
+                int a[1]{ 0 };
+                volatile auto fun = std::for_each_n(a, 1, [](auto b) {});
+                return 0;
+            }
+Performing C++ SOURCE FILE Test USE_STD_FOR_EACH_N succeeded with the following output:
+Change Dir: /home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_8b2f1/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_8b2f1.dir/build.make CMakeFiles/cmTC_8b2f1.dir/build
+gmake[1]: Entering directory '/home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_8b2f1.dir/src.cxx.o
+/usr/bin/c++ -DUSE_STD_FOR_EACH_N  -O0 -std=c++17 -fPIE -o CMakeFiles/cmTC_8b2f1.dir/src.cxx.o -c /home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_8b2f1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8b2f1.dir/link.txt --verbose=1
+/usr/bin/c++   -O0 -std=c++17 CMakeFiles/cmTC_8b2f1.dir/src.cxx.o -o cmTC_8b2f1 
+gmake[1]: Leaving directory '/home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+            #include <algorithm>
+            int main() {
+                int a[1]{ 0 };
+                volatile auto fun = std::for_each_n(a, 1, [](auto b) {});
+                return 0;
+            }
+Performing C++ SOURCE FILE Test USE_STD_FOR_EACH_N succeeded with the following output:
+Change Dir: /home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_66744/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_66744.dir/build.make CMakeFiles/cmTC_66744.dir/build
+gmake[1]: Entering directory '/home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_66744.dir/src.cxx.o
+/usr/bin/c++ -DUSE_STD_FOR_EACH_N  -O0 -std=c++17 -fPIE -o CMakeFiles/cmTC_66744.dir/src.cxx.o -c /home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_66744
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_66744.dir/link.txt --verbose=1
+/usr/bin/c++   -O0 -std=c++17 CMakeFiles/cmTC_66744.dir/src.cxx.o -o cmTC_66744 
+gmake[1]: Leaving directory '/home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+            #include <algorithm>
+            int main() {
+                int a[1]{ 0 };
+                volatile auto fun = std::for_each_n(a, 1, [](auto b) {});
+                return 0;
+            }
+Performing C++ SOURCE FILE Test USE_STD_FOR_EACH_N succeeded with the following output:
+Change Dir: /home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_9fecb/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_9fecb.dir/build.make CMakeFiles/cmTC_9fecb.dir/build
+gmake[1]: Entering directory '/home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_9fecb.dir/src.cxx.o
+/usr/bin/c++ -DUSE_STD_FOR_EACH_N  -O0 -std=c++17 -fPIE -o CMakeFiles/cmTC_9fecb.dir/src.cxx.o -c /home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_9fecb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9fecb.dir/link.txt --verbose=1
+/usr/bin/c++   -O0 -std=c++17 CMakeFiles/cmTC_9fecb.dir/src.cxx.o -o cmTC_9fecb 
+gmake[1]: Leaving directory '/home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+            #include <algorithm>
+            int main() {
+                int a[1]{ 0 };
+                volatile auto fun = std::for_each_n(a, 1, [](auto b) {});
+                return 0;
+            }
+Performing C++ SOURCE FILE Test USE_STD_FOR_EACH_N succeeded with the following output:
+Change Dir: /home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_b283c/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_b283c.dir/build.make CMakeFiles/cmTC_b283c.dir/build
+gmake[1]: Entering directory '/home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_b283c.dir/src.cxx.o
+/usr/bin/c++ -DUSE_STD_FOR_EACH_N  -O0 -std=c++17 -fPIE -o CMakeFiles/cmTC_b283c.dir/src.cxx.o -c /home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_b283c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b283c.dir/link.txt --verbose=1
+/usr/bin/c++   -O0 -std=c++17 CMakeFiles/cmTC_b283c.dir/src.cxx.o -o cmTC_b283c 
+gmake[1]: Leaving directory '/home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+            #include <algorithm>
+            int main() {
+                int a[1]{ 0 };
+                volatile auto fun = std::for_each_n(a, 1, [](auto b) {});
+                return 0;
+            }
+Performing C++ SOURCE FILE Test USE_STD_FOR_EACH_N succeeded with the following output:
+Change Dir: /home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_17428/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_17428.dir/build.make CMakeFiles/cmTC_17428.dir/build
+gmake[1]: Entering directory '/home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_17428.dir/src.cxx.o
+/usr/bin/c++ -DUSE_STD_FOR_EACH_N  -O0 -std=c++17 -fPIE -o CMakeFiles/cmTC_17428.dir/src.cxx.o -c /home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_17428
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_17428.dir/link.txt --verbose=1
+/usr/bin/c++   -O0 -std=c++17 CMakeFiles/cmTC_17428.dir/src.cxx.o -o cmTC_17428 
+gmake[1]: Leaving directory '/home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+            #include <algorithm>
+            int main() {
+                int a[1]{ 0 };
+                volatile auto fun = std::for_each_n(a, 1, [](auto b) {});
+                return 0;
+            }
+Performing C++ SOURCE FILE Test USE_STD_FOR_EACH_N succeeded with the following output:
+Change Dir: /home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_ec672/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_ec672.dir/build.make CMakeFiles/cmTC_ec672.dir/build
+gmake[1]: Entering directory '/home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_ec672.dir/src.cxx.o
+/usr/bin/c++ -DUSE_STD_FOR_EACH_N  -O0 -std=c++17 -fPIE -o CMakeFiles/cmTC_ec672.dir/src.cxx.o -c /home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_ec672
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ec672.dir/link.txt --verbose=1
+/usr/bin/c++   -O0 -std=c++17 CMakeFiles/cmTC_ec672.dir/src.cxx.o -o cmTC_ec672 
+gmake[1]: Leaving directory '/home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+            #include <algorithm>
+            int main() {
+                int a[1]{ 0 };
+                volatile auto fun = std::for_each_n(a, 1, [](auto b) {});
+                return 0;
+            }
+Performing C++ SOURCE FILE Test USE_STD_FOR_EACH_N succeeded with the following output:
+Change Dir: /home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_e405a/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_e405a.dir/build.make CMakeFiles/cmTC_e405a.dir/build
+gmake[1]: Entering directory '/home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_e405a.dir/src.cxx.o
+/usr/bin/c++ -DUSE_STD_FOR_EACH_N  -O0 -std=c++17 -fPIE -o CMakeFiles/cmTC_e405a.dir/src.cxx.o -c /home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_e405a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e405a.dir/link.txt --verbose=1
+/usr/bin/c++   -O0 -std=c++17 CMakeFiles/cmTC_e405a.dir/src.cxx.o -o cmTC_e405a 
+gmake[1]: Leaving directory '/home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+            #include <algorithm>
+            int main() {
+                int a[1]{ 0 };
+                volatile auto fun = std::for_each_n(a, 1, [](auto b) {});
+                return 0;
+            }
+Performing C++ SOURCE FILE Test USE_STD_FOR_EACH_N succeeded with the following output:
+Change Dir: /home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_3725f/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_3725f.dir/build.make CMakeFiles/cmTC_3725f.dir/build
+gmake[1]: Entering directory '/home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_3725f.dir/src.cxx.o
+/usr/bin/c++ -DUSE_STD_FOR_EACH_N  -O0 -std=c++17 -fPIE -o CMakeFiles/cmTC_3725f.dir/src.cxx.o -c /home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_3725f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3725f.dir/link.txt --verbose=1
+/usr/bin/c++   -O0 -std=c++17 CMakeFiles/cmTC_3725f.dir/src.cxx.o -o cmTC_3725f 
+gmake[1]: Leaving directory '/home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+            #include <algorithm>
+            int main() {
+                int a[1]{ 0 };
+                volatile auto fun = std::for_each_n(a, 1, [](auto b) {});
+                return 0;
+            }
+Performing C++ SOURCE FILE Test USE_STD_FOR_EACH_N succeeded with the following output:
+Change Dir: /home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_6f7a9/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_6f7a9.dir/build.make CMakeFiles/cmTC_6f7a9.dir/build
+gmake[1]: Entering directory '/home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_6f7a9.dir/src.cxx.o
+/usr/bin/c++ -DUSE_STD_FOR_EACH_N  -O0 -std=c++17 -fPIE -o CMakeFiles/cmTC_6f7a9.dir/src.cxx.o -c /home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_6f7a9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6f7a9.dir/link.txt --verbose=1
+/usr/bin/c++   -O0 -std=c++17 CMakeFiles/cmTC_6f7a9.dir/src.cxx.o -o cmTC_6f7a9 
+gmake[1]: Leaving directory '/home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+            #include <algorithm>
+            int main() {
+                int a[1]{ 0 };
+                volatile auto fun = std::for_each_n(a, 1, [](auto b) {});
+                return 0;
+            }
+Performing C++ SOURCE FILE Test USE_STD_FOR_EACH_N succeeded with the following output:
+Change Dir: /home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_56409/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_56409.dir/build.make CMakeFiles/cmTC_56409.dir/build
+gmake[1]: Entering directory '/home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_56409.dir/src.cxx.o
+/usr/bin/c++ -DUSE_STD_FOR_EACH_N  -O0 -std=c++17 -fPIE -o CMakeFiles/cmTC_56409.dir/src.cxx.o -c /home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_56409
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_56409.dir/link.txt --verbose=1
+/usr/bin/c++   -O0 -std=c++17 CMakeFiles/cmTC_56409.dir/src.cxx.o -o cmTC_56409 
+gmake[1]: Leaving directory '/home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+            #include <algorithm>
+            int main() {
+                int a[1]{ 0 };
+                volatile auto fun = std::for_each_n(a, 1, [](auto b) {});
+                return 0;
+            }
+Performing C++ SOURCE FILE Test USE_STD_FOR_EACH_N succeeded with the following output:
+Change Dir: /home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_ad49a/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_ad49a.dir/build.make CMakeFiles/cmTC_ad49a.dir/build
+gmake[1]: Entering directory '/home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_ad49a.dir/src.cxx.o
+/usr/bin/c++ -DUSE_STD_FOR_EACH_N  -O0 -std=c++17 -fPIE -o CMakeFiles/cmTC_ad49a.dir/src.cxx.o -c /home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_ad49a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ad49a.dir/link.txt --verbose=1
+/usr/bin/c++   -O0 -std=c++17 CMakeFiles/cmTC_ad49a.dir/src.cxx.o -o cmTC_ad49a 
+gmake[1]: Leaving directory '/home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+            #include <algorithm>
+            int main() {
+                int a[1]{ 0 };
+                volatile auto fun = std::for_each_n(a, 1, [](auto b) {});
+                return 0;
+            }
+Performing C++ SOURCE FILE Test USE_STD_FOR_EACH_N succeeded with the following output:
+Change Dir: /home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_4f70c/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_4f70c.dir/build.make CMakeFiles/cmTC_4f70c.dir/build
+gmake[1]: Entering directory '/home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_4f70c.dir/src.cxx.o
+/usr/bin/c++ -DUSE_STD_FOR_EACH_N  -O0 -std=c++17 -fPIE -o CMakeFiles/cmTC_4f70c.dir/src.cxx.o -c /home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_4f70c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4f70c.dir/link.txt --verbose=1
+/usr/bin/c++   -O0 -std=c++17 CMakeFiles/cmTC_4f70c.dir/src.cxx.o -o cmTC_4f70c 
+gmake[1]: Leaving directory '/home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+            #include <algorithm>
+            int main() {
+                int a[1]{ 0 };
+                volatile auto fun = std::for_each_n(a, 1, [](auto b) {});
+                return 0;
+            }

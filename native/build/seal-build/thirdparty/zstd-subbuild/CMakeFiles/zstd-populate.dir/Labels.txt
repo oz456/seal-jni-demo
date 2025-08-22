@@ -1,0 +1,14 @@
+# Target labels
+ zstd-populate
+# Source files and their labels
+/home/penguin/Desktop/seal-jni-demo/native/build/seal-build/thirdparty/zstd-subbuild/CMakeFiles/zstd-populate
+/home/penguin/Desktop/seal-jni-demo/native/build/seal-build/thirdparty/zstd-subbuild/CMakeFiles/zstd-populate.rule
+/home/penguin/Desktop/seal-jni-demo/native/build/seal-build/thirdparty/zstd-subbuild/CMakeFiles/zstd-populate-complete.rule
+/home/penguin/Desktop/seal-jni-demo/native/build/seal-build/thirdparty/zstd-subbuild/zstd-populate-prefix/src/zstd-populate-stamp/zstd-populate-build.rule
+/home/penguin/Desktop/seal-jni-demo/native/build/seal-build/thirdparty/zstd-subbuild/zstd-populate-prefix/src/zstd-populate-stamp/zstd-populate-configure.rule
+/home/penguin/Desktop/seal-jni-demo/native/build/seal-build/thirdparty/zstd-subbuild/zstd-populate-prefix/src/zstd-populate-stamp/zstd-populate-download.rule
+/home/penguin/Desktop/seal-jni-demo/native/build/seal-build/thirdparty/zstd-subbuild/zstd-populate-prefix/src/zstd-populate-stamp/zstd-populate-install.rule
+/home/penguin/Desktop/seal-jni-demo/native/build/seal-build/thirdparty/zstd-subbuild/zstd-populate-prefix/src/zstd-populate-stamp/zstd-populate-mkdir.rule
+/home/penguin/Desktop/seal-jni-demo/native/build/seal-build/thirdparty/zstd-subbuild/zstd-populate-prefix/src/zstd-populate-stamp/zstd-populate-patch.rule
+/home/penguin/Desktop/seal-jni-demo/native/build/seal-build/thirdparty/zstd-subbuild/zstd-populate-prefix/src/zstd-populate-stamp/zstd-populate-test.rule
+/home/penguin/Desktop/seal-jni-demo/native/build/seal-build/thirdparty/zstd-subbuild/zstd-populate-prefix/src/zstd-populate-stamp/zstd-populate-update.rule

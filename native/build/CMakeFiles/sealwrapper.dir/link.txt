@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -O3 -DNDEBUG -shared -Wl,-soname,libsealwrapper.so -o libsealwrapper.so CMakeFiles/sealwrapper.dir/seal_wrapper.cpp.o  seal-build/lib/libseal-4.1.a 

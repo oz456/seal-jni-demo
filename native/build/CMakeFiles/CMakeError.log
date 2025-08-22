@@ -1,0 +1,91 @@
+Performing C SOURCE FILE Test C_FLAG_QUNUSED_ARGUMENTS failed with the following output:
+Change Dir: /home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_9e9ad/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_9e9ad.dir/build.make CMakeFiles/cmTC_9e9ad.dir/build
+gmake[1]: Entering directory '/home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9e9ad.dir/src.c.o
+/usr/bin/cc -DC_FLAG_QUNUSED_ARGUMENTS  -Wall -Wextra -Wundef -Wshadow -Wcast-align -Wcast-qual -Wstrict-prototypes  -fPIE   -Qunused-arguments -o CMakeFiles/cmTC_9e9ad.dir/src.c.o -c /home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CMakeTmp/src.c
+cc: error: unrecognized command-line option '-Qunused-arguments'
+gmake[1]: *** [CMakeFiles/cmTC_9e9ad.dir/build.make:78: CMakeFiles/cmTC_9e9ad.dir/src.c.o] Error 1
+gmake[1]: Leaving directory '/home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_9e9ad/fast] Error 2
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test CXX_FLAG_QUNUSED_ARGUMENTS failed with the following output:
+Change Dir: /home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_7eb46/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_7eb46.dir/build.make CMakeFiles/cmTC_7eb46.dir/build
+gmake[1]: Entering directory '/home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_7eb46.dir/src.cxx.o
+/usr/bin/c++ -DCXX_FLAG_QUNUSED_ARGUMENTS  -Wall -Wextra -Wundef -Wshadow -Wcast-align -Wcast-qual  -fPIE   -Qunused-arguments -o CMakeFiles/cmTC_7eb46.dir/src.cxx.o -c /home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command-line option '-Qunused-arguments'
+gmake[1]: *** [CMakeFiles/cmTC_7eb46.dir/build.make:78: CMakeFiles/cmTC_7eb46.dir/src.cxx.o] Error 1
+gmake[1]: Leaving directory '/home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_7eb46/fast] Error 2
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test SEAL_MEMSET_S_FOUND failed with the following compile output:
+Change Dir: /home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_f2dad/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_f2dad.dir/build.make CMakeFiles/cmTC_f2dad.dir/build
+gmake[1]: Entering directory '/home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_f2dad.dir/src.cxx.o
+/usr/bin/c++ -DSEAL_MEMSET_S_FOUND  -fPIE -o CMakeFiles/cmTC_f2dad.dir/src.cxx.o -c /home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CMakeTmp/src.cxx
+/home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CMakeTmp/src.cxx: In function ‘int main()’:
+/home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CMakeTmp/src.cxx:7:17: error: ‘memset_s’ was not declared in this scope; did you mean ‘memset’?
+    7 |         int r = memset_s(str, sizeof(str), 'a', 5);
+      |                 ^~~~~~~~
+      |                 memset
+gmake[1]: *** [CMakeFiles/cmTC_f2dad.dir/build.make:78: CMakeFiles/cmTC_f2dad.dir/src.cxx.o] Error 1
+gmake[1]: Leaving directory '/home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_f2dad/fast] Error 2
+
+
+...and run output:
+
+Return value: 1
+Source file was:
+
+    #define __STDC_WANT_LIB_EXT1__ 1
+    #include <string.h>
+    int main(void)
+    {
+        char str[] = "ghghghghghghghghghghgh";
+        int r = memset_s(str, sizeof(str), 'a', 5);
+        return r;
+    }
+Determining if the explicit_memset exist failed with the following output:
+Change Dir: /home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_9b5b5/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_9b5b5.dir/build.make CMakeFiles/cmTC_9b5b5.dir/build
+gmake[1]: Entering directory '/home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9b5b5.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -fPIE -o CMakeFiles/cmTC_9b5b5.dir/CheckSymbolExists.c.o -c /home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: ‘explicit_memset’ undeclared (first use in this function)
+    8 |   return ((int*)(&explicit_memset))[argc];
+      |                   ^~~~~~~~~~~~~~~
+/home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+gmake[1]: *** [CMakeFiles/cmTC_9b5b5.dir/build.make:78: CMakeFiles/cmTC_9b5b5.dir/CheckSymbolExists.c.o] Error 1
+gmake[1]: Leaving directory '/home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_9b5b5/fast] Error 2
+
+
+File /home/penguin/Desktop/seal-jni-demo/native/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <string.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef explicit_memset
+  return ((int*)(&explicit_memset))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
